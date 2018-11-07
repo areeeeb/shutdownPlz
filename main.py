@@ -60,7 +60,7 @@ time_in_sec = time_in_min * 60
 
 debug = False
 
-if time_in_min is 696969:
+if time_in_min == 696969:
 	debug = True
 	print("NOW IN DEBUG MODE!!!")
 	directory = input(r'Directory in which you want to save the debugged screenshots like **D:\anyfolder**: ')
